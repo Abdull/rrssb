@@ -40,7 +40,7 @@ $rrssb-whatsapp: #43d854 !default;
 $rrssb-xing: #005A5F !default;
 
 // Set the border radius for the buttons
-$rrssb-border-radius: 2px !default;
+$rrssb-border-radius: 0px !default;
 $rrssb-main-font: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 
 // Variable list for all social button colors to be iterated over.
@@ -87,7 +87,7 @@ $social-list: (rrssb-email $rrssb-email, rrssb-facebook $rrssb-facebook, rrssb-t
     line-height: 13px;
     list-style: none;
     margin: 0;
-    padding: 0 2px;
+    padding: 2px 2px;
 
     // This generates individual button classes for each item in social list on line 39.
     @each $s-name in $social-list {
